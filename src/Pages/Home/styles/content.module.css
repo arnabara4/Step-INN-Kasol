@@ -1,0 +1,22 @@
+.Nav2wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Nav2wrapper ul{
+    display: flex;
+    width: 80%;
+}
+.Nav2wrapper ul li{
+    padding: 18px 22px;
+    font-size: 1.1em;
+    font-family:"Inter", sans-serif;
+    font-weight: 200;
+}
+.un{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.43);
+}
+.selected{
+    border-bottom: 2px solid #ad8b3a;
+    color: #ad8b3a;
+}
