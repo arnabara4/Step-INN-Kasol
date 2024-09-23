@@ -1,0 +1,94 @@
+.container {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #13130f;
+  padding: 10px 30px;
+}
+
+.container img {
+  width: 10vw;
+  margin-bottom: 5vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  border-bottom: 1px solid white;
+  
+}
+.column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.compform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.title {
+  font-size: 0.8em;
+  color: #45443fef;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.compform {
+  display: flex;
+  gap: 10px;
+}
+.compform input {
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  color: white;
+  background-color: #13130f;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.compform button {
+  color: #45443fec;
+  background-color: grey;
+  border: none;
+  padding: 10px;
+  height: 100%;
+  font-weight: 700;
+}
+.column ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50%;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 1.2em;
+  gap: 10px;
+}
+.comp div {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.8em;
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+}
+.links{
+    display: flex;
+    gap: 5%;
+}
+.links a{
+    color: white;
+    font-size: 2em;
+}
+.misc{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
