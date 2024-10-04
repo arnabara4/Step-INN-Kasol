@@ -8,6 +8,7 @@
     width: 80%;
 }
 .Nav2wrapper ul li{
+    cursor:pointer;
     padding: 18px 22px;
     font-size: 1.1em;
     font-family:"Inter", sans-serif;

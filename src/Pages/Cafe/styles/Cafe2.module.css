@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw;
+  justify-content: center;
+  background-color: #f6f5f5;
+}
+.container span {
+  font-size: 3em;
+  font-family: "Cinzel", serif;
+  color: #45443f;
+  padding-left: 6vw;
+  width: 40%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+.txt {
+  width: 45%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.comp p {
+  font-size: 1.5em;
+  color: #45443f;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+.comp img {
+  width: 40%;
+  height: 60vh;
+  border-radius: 50%;
+}

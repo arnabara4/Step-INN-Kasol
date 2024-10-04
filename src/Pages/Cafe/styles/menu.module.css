@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 30px 0;
+}
+.container span {
+  font-size: 3em;
+  font-family: "Cinzel", serif;
+  color: #45443f;
+  padding-left: 8vw;
+  width: 40%;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.comp {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: space-around;
+}
+.comp span {
+  font-size: 1.5em;
+  color: #b1981b;
+  padding: 0;
+  padding-left: 55%;
+}
+.info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.info img {
+  width: 300px;
+  height: 300px;
+}
+.info p {
+  font-size: 1.1em;
+  color: #45443f;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+a {
+  color: #ad8b3a;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}

@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../styles/foooter.module.css";
 import logo from "../assets/Group.png";
+import logo2 from "../assets/Screenshot_2024-10-01_at_9.15.44_PM-removebg-preview.png";
+
 const Footer = () => {
   return (
     <div className={styles.container}>
@@ -24,25 +26,30 @@ const Footer = () => {
           </div>
           <div className={styles.comp}>
             <span className={styles.title}>FOR BOOKING CONTACT</span>
-            <div><p>8960700009 / 9600036667</p> <em>stepinnkasol@gmail.com</em></div>
+            <div>
+              <p>8960700009 / 9600036667</p>
+              <em>stepinnkasol@gmail.com</em>
+            </div>
           </div>
           <div className={styles.comp}>
-            <span className={styles.title}> CUSTOMER SUPPORT
-            </span>
-            <div><p>stepinn.support@gmail.com</p> <em>stepinnkasol@gmail.com</em></div>
+            <span className={styles.title}> CUSTOMER SUPPORT</span>
+            <div>
+              <p>stepinn.support@gmail.com {"  "}</p>
+              <em>stepinnkasol@gmail.com</em>
+            </div>
           </div>
         </div>
         <div className={styles.column}>
           <span className={styles.title}>QUICK LINKS</span>
           <ul>
-            <li>HOTELS</li>
-            <li>COTTAGES</li>
-            <li>CAFE</li>
-            <li>WELLNESS</li>
-            <li>GALLERY</li>
-            <li>SITEMAP</li>
-            <li>OFFERS</li>
-            <li>ABOUT</li>
+            <li>Hotels</li>
+            <li>Cottages</li>
+            <li>Cafe</li>
+            <li>Welness</li>
+            <li>Gallery</li>
+            <li>Sitemap</li>
+            <li>Offers</li>
+            <li>About</li>
           </ul>
         </div>
         <div className={styles.column}>
@@ -56,6 +63,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <img
+          className={styles.column}
+          src={logo2}
+          alt="pic"
+        />
       </div>
       <p className={styles.misc}>POWERED BY MIK 2024</p>
     </div>

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 3vw;
+  justify-content: center;
+}
+em {
+  font-style: normal;
+  font-size: 0.5em;
+}
+.text {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+.text span {
+  font-size: 3em;
+  font-family: "Cinzel", serif;
+  color: #45443f;
+  padding-left: 8vw;
+  width: 40%;
+}
+.text p {
+  font-size: 1.2em;
+  color: #45443f;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  width: 30%;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.info p {
+  width: 30%;
+  font-size: 1.5em;
+  color: #45443f;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  padding: 1vw;
+}
+.info img {
+  width: 45%;
+  height: 50vh;
+}
