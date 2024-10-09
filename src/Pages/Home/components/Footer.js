@@ -42,7 +42,7 @@ const Footer = () => {
           <ul>
             <li>Cottages</li>
             <li>Cafe</li>
-            <li>Welness</li>
+            <li>Swiss Tents</li>
             <li>Gallery</li>
             <li>Sitemap</li>
             <li>About</li>

@@ -30,12 +30,12 @@ const Nav2 = ({ setSec, sec }) => {
           // onClick={() => setSec("venues")}
           className={sec === "venues" ? styles.selected : styles.un}>
           VENUES
-        </li>
-        <li
+        </li> */}
+        {/* <li
           // onClick={() => setSec("wellness")}
           className={sec === "wellness" ? styles.selected : styles.un}>
           WELLNESS
-        </li>
+        </li> */}
         <li
           // onClick={() => setSec("experience")}
           className={sec === "experience" ? styles.selected : styles.un}>
@@ -50,7 +50,7 @@ const Nav2 = ({ setSec, sec }) => {
           // onClick={() => setSec("attractions")}
           className={sec === "attractions" ? styles.selected : styles.un}>
           ATTRACTIONS
-        </li> */}
+        </li>
       </ul>
     </div>
   );
