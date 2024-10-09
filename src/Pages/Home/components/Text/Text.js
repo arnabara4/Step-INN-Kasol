@@ -3,7 +3,7 @@ import styles from "../../styles/text.module.css";
 import Pic1 from "../../assets/Pic1.webp";
 const Text = () => {
   return (
-    <div className={styles.txt1wrapper}>
+    <div id="about" className={styles.txt1wrapper}>
       <div className={styles.txt1}>
         <span>- THE HEART OF HIMALAYAS</span>
         <p>

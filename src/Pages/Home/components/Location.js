@@ -3,7 +3,7 @@ import styles from "../styles/Location.module.css";
 
 const Location = () => {
   return (
-    <div className={styles.container}>
+    <div id="sitemap" className={styles.container}>
       <div className={styles.wrapper}>
         <div>
           <div className={styles.title}>- LOCATION & DIRECTIONS</div>

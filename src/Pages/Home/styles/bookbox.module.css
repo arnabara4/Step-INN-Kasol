@@ -1,15 +1,20 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
   display: flex;
-  justify-content: center;
   align-items: center;
   position: fixed;
   top: 35%;
-  background-color: rgba(255, 255, 255, 0.511);
+  background-color: rgb(255, 255, 255);
   color: #ad8b3a;
   left: 30%;
   width: 40%;
   height: 40%;
+  border: 2.5px solid #ad8b3a;
+  gap: 20px;
 }
 .container span {
   position: absolute;
@@ -24,11 +29,15 @@
 }
 .container a {
   font-weight: 700;
-  font-family: "Cinzel", serif;
-  font-size: 2em;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
   text-decoration: none;
   color: #8d6b1e;
-  text-align: center;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
 }
 .container a:active {
   color: #86610d;
@@ -36,34 +45,56 @@
 .links {
   display: flex;
   flex-direction: column;
+  width: 65%;
+  gap: 20px;
+  padding: 10px;
+  padding-left: 20px;
 }
 .container a:hover {
   text-decoration: underline;
 }
 .container p {
-  font-family: "Cinzel", serif;
-  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
   font-size: 1.5em;
   color: #8d6b1e;
   font-weight: 700;
+}
+.title{
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+.logo {
+  height: 30px;
 }
 @media (max-width: 500px) {
   .container {
     width: 60%;
     left: 20%;
+    gap: 10px;
+    height: 30%;
   }
   .container span {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .container a {
-    font-size: 1.5em;
+    font-size: 0.9em;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    text-align: left;
+  }
+  .links {
+    width: 100%;
+  }
+  .logo {
+    height: 15px;
   }
   .container p {
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+  .title{
+    font-size: 1.3em;
   }
 }

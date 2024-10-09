@@ -40,12 +40,24 @@ const Footer = () => {
         <div className={styles.column}>
           <span className={styles.title}>QUICK LINKS</span>
           <ul>
-            <li>Cottages</li>
-            <li>Cafe</li>
-            <li>Swiss Tents</li>
-            <li>Gallery</li>
-            <li>Sitemap</li>
-            <li>About</li>
+            <li>
+              <a href="/rooms#cottages">Cottages</a>
+            </li>
+            <li>
+              <a href="/dining#cafe">Cafe</a>
+            </li>
+            <li>
+              <a href="./rooms#tents">Swiss Tents</a>
+            </li>
+            <li>
+              <a href="./gallery#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="./#sitemap">Sitemap</a>
+            </li>
+            <li>
+              <a href="./#about">About</a>
+            </li>
           </ul>
         </div>
         <div className={styles.column}>

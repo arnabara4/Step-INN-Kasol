@@ -7,7 +7,7 @@ import Exterior from "./Exterior";
 const Text = () => {
   const [more, setMore] = useState("Less");
   return (
-    <div className={styles.container}>
+    <div id="cottages" className={styles.container}>
       <div className={styles.txt1wrapper}>
         <img
           src={Pic1}

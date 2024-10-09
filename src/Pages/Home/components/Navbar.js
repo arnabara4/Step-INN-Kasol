@@ -9,6 +9,12 @@ const Navbar = ({ setView }) => {
   return (
     <div className={styles.NavWrapper}>
       <img
+        className={styles.Navlogo}
+        src={logo}
+        alt="pic"
+        onClick={scrollToTop}
+      />
+      <img
         className={styles.Navlogo2}
         src={logo2}
         alt="pic"
@@ -30,12 +36,6 @@ const Navbar = ({ setView }) => {
         BOOK A STAY
       </button>
       {/* </div> */}
-      <img
-        className={styles.Navlogo}
-        src={logo}
-        alt="pic"
-        onClick={scrollToTop}
-      />
     </div>
   );
 };

@@ -5,7 +5,9 @@ import pic2 from "../assets/riversidecafe.webp";
 
 const Cafe = () => {
   return (
-    <div className={styles.container}>
+    <div
+      id="cafe"
+      className={styles.container}>
       <span>- CAFE EXPERIENCE</span>
       <div className={styles.info}>
         <div className={styles.comp}>

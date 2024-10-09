@@ -1,0 +1,59 @@
+.container{
+    margin-top: 50px;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30%;
+  padding: 10px 12vw;
+}
+.header span {
+  font-family: "Cinzel", serif;
+  font-size: 3em;
+  color: #45443f;
+}
+.header p{
+    font-size: 1em;
+    font-family: "Inter";
+    font-weight: 200;
+    width: 40%;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 25%;
+    transition: transform 0.3s ease;
+}
+.content img:hover{
+    transform: scale(1.1);
+}
+@media(max-width:500px){
+    .header{
+        gap: 15%;
+    }
+    .header span{
+        font-size: 2em;
+        width: 60%;
+    }
+    .header p{
+        font-size: 0.5em;
+    }
+    .content{
+        margin-top: 30px;
+    }
+}
+@media(max-width:400px){
+    .header span{
+        font-size: 1.3em;
+    }
+    .header p{
+        font-size: 0.4em;
+    }
+}

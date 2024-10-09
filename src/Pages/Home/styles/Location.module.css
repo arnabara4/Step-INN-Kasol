@@ -6,7 +6,7 @@
 em {
   align-items: end;
 }
-a {
+.info a {
   color: #ad8b3a;
   font-family: "Inter", sans-serif;
   letter-spacing: 0.2em;

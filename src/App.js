@@ -6,21 +6,44 @@ import Footer from "./Pages/Home/components/Footer";
 import Nav2 from "./Pages/Home/components/Nav2";
 import Cottages from "./Pages/Cottage/Cottages";
 import Cafeee from "./Pages/Cafe/Cafeee";
+import Exp from "./Pages/Experience/Experience";
+import Gal from "./Pages/Gallery/Gallery";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   const [sec, setSec] = useState("overview");
   return (
-    <div>
+    <Router>
       <Header />
       <Nav2
         sec={sec}
         setSec={setSec}
       />
-      {sec === "overview" ? <Home /> : <div></div>}
-      {sec === "rooms" ? <Cottages /> : <div></div>}
-      {sec === "dining" ? <Cafeee /> : <div></div>}
+      <Routes>
+        {" "}
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/rooms"
+          element={<Cottages />}
+        />
+        <Route
+          path="/dining"
+          element={<Cafeee />}
+        />
+        <Route
+          path="/experience"
+          element={<Exp />}
+        />
+        <Route
+          path="/gallery"
+          element={<Gal />}
+        />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 };
 

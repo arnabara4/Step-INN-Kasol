@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.title{
+    font-size: 3em;
+    font-family: "Cinzel", serif;
+}
+.container form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap: 3px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+.container form label{
+    font-size: 1.5em;
+    font-family: "Cinzel", serif;
+    color:rgb(144, 111, 29);
+    margin-top: 10px;
+}
+.container .mail{
+    width: 50%;
+    height: 3vh;
+    border: none;
+    border-bottom: 1px solid rgb(144, 111, 29);
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    display: flex;
+    width: 100%;
+    gap:10px
+}
+.name div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.textarea{
+    border: 1px solid rgb(144, 111, 29);
+    padding: 5px;
+    width: 70%;
+    height: 25vh;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none; 
+}
+.container form button{
+    width: 20%;
+    border: none;
+    background-color: rgb(144, 111, 29);
+    color: white;
+    font-family:"Cinzel", serif ;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 3px 10px;
+}
+@media(max-width:500px){
+    .title{
+        font-size: 2em;
+        text-align: center;
+    }
+    .container form{
+        width: 70%;
+        padding-left: 50px;
+    }
+    .container .mail{
+        width: 80%;
+    }
+    .textarea{
+        width: 80%;
+    }
+    .container form button{
+        padding: 5px;
+        font-size: 0.7em;
+    }
+}
+

@@ -36,6 +36,10 @@ input:focus {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+.column a {
+  text-decoration: none;
+  color: white;
+}
 .compform {
   display: flex;
   gap: 20px;
@@ -69,6 +73,10 @@ input:focus {
   color: white;
   font-size: 1.2em;
   gap: 10px;
+  cursor: pointer;
+}
+.column ul li:hover {
+  text-decoration: underline;
 }
 .comp div {
   display: flex;
@@ -103,15 +111,15 @@ input:focus {
 .wrapper img {
   width: 20%;
 }
-@media(max-width:500px){
-  .container{
+@media (max-width: 500px) {
+  .container {
     padding: 0;
   }
-  .container img{
+  .container img {
     width: 30%;
     margin-bottom: 1vh;
   }
-  .wrapper{
+  .wrapper {
     transform: scale(0.9);
     gap: 10%;
     padding: 0;
@@ -119,37 +127,37 @@ input:focus {
     margin-left: 5px;
     padding-bottom: 20px;
   }
-  .title{
+  .title {
     font-size: 0.6em;
     width: 70%;
   }
-  .compform input{
+  .compform input {
     transform: scale(0.8);
   }
   .compform {
     align-items: center;
   }
-  .column{
+  .column {
     align-items: center;
     width: 30%;
   }
-  .compform button{
+  .compform button {
     height: 50%;
     margin-left: 10px;
     transform: scale(0.8);
   }
-  .column ul{
+  .column ul {
     font-size: 0.6em;
   }
-  .comp div{
+  .comp div {
     font-size: 0.6em;
     display: flex;
     flex-direction: column;
   }
-  .links a{
+  .links a {
     font-size: 1em;
   }
-  .wrapper img{
+  .wrapper img {
     width: 20%;
     height: 30%;
   }

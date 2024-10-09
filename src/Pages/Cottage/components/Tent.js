@@ -7,7 +7,7 @@ import Exteriorb from "./Exteriorb";
 const Text = () => {
   const [more, setMore] = useState("Less");
   return (
-    <div className={styles.container}>
+    <div id="tents" className={styles.container}>
       <div className={styles.txt1wrapper}>
         <div className={styles.txt1}>
           <span>SWISS TENTS</span>

@@ -1,0 +1,24 @@
+{
+  "gallery": [
+    { "id": 1, "imagePath": "assets/gallpic1.jpeg" },
+    { "id": 2, "imagePath": "assets/gallpic2.jpeg" },
+    { "id": 3, "imagePath": "assets/gallpic3.jpeg" },
+    { "id": 4, "imagePath": "assets/gallpic4.jpeg" },
+    { "id": 5, "imagePath": "assets/gallpic5.jpeg" },
+    { "id": 6, "imagePath": "assets/gallpic6.jpeg" },
+    { "id": 7, "imagePath": "assets/gallpic7.jpeg" },
+    { "id": 8, "imagePath": "assets/gallpic8.jpeg" },
+    { "id": 9, "imagePath": "assets/gallpic9.jpeg" },
+    { "id": 10, "imagePath": "assets/gallpic10.jpeg" },
+    { "id": 11, "imagePath": "assets/gallpic11.jpeg" },
+    { "id": 12, "imagePath": "assets/gallpic12.jpeg" },
+    { "id": 13, "imagePath": "assets/gallpic13.jpeg" },
+    { "id": 14, "imagePath": "assets/gallpic14.jpeg" },
+    { "id": 15, "imagePath": "assets/gallpic15.jpeg" },
+    { "id": 16, "imagePath": "assets/gallpic16.jpeg" },
+    { "id": 17, "imagePath": "assets/gallpic17.jpeg" },
+    { "id": 18, "imagePath": "assets/gallpic18.jpeg" },
+    { "id": 19, "imagePath": "assets/gallpic19.jpeg" },
+    { "id": 20, "imagePath": "assets/gallpic20.jpeg" }
+  ]
+}
