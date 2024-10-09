@@ -18,6 +18,7 @@ const BookBox = ({ setView }) => {
           {" "}
           MAKE MY TRIP{" "}
         </a>
+        <p>For Business to Business sale contact: 8448320407</p>
       </div>
     </div>
   );
