@@ -16,17 +16,17 @@ const Nav2 = ({ setSec, sec }) => {
           className={sec === "overview" ? styles.selected : styles.un}>
           OVERVIEW
         </li>
-        <li
+        {/* <li
           // onClick={() => setSec("offers")}
           className={sec === "offers" ? styles.selected : styles.un}>
           OFFERS
-        </li>
+        </li> */}
         <li
           onClick={() => setSec("dining")}
           className={sec === "dining" ? styles.selected : styles.un}>
           DINING
         </li>
-        <li
+        {/* <li
           // onClick={() => setSec("venues")}
           className={sec === "venues" ? styles.selected : styles.un}>
           VENUES
@@ -50,7 +50,7 @@ const Nav2 = ({ setSec, sec }) => {
           // onClick={() => setSec("attractions")}
           className={sec === "attractions" ? styles.selected : styles.un}>
           ATTRACTIONS
-        </li>
+        </li> */}
       </ul>
     </div>
   );

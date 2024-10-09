@@ -1,0 +1,64 @@
+.txt1wrapper {
+    display: flex;
+    padding: 7vh 3vw;
+    gap: 5vw;
+    justify-content: center;
+  }
+  .txt1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 40%;
+  }
+  .txt1 span {
+    font-family: "Cinzel", serif;
+    font-size: 3em;
+    color: #45443f;
+  }
+  .txt1 p {
+    font-size: 1.3em;
+    color: #45443f;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+  .txt1wrapper img {
+    width: 40%;
+    height: 60vh;
+  }
+  .txt1 div {
+    color: rgb(149, 132, 37);
+    font-family: "Inter";
+    cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    .txt1wrapper {
+      padding: 20px 5px;
+      gap: 10%;
+    }
+    .txt1 {
+      width: 40%;
+    }
+    .txt1 span {
+      font-size: 2em;
+    }
+    .txt1 p {
+      font-size: 0.6em;
+    }
+    .txt1wrapper img {
+      width: 50%;
+      height: 40vh;
+    }
+    .txt1 div{
+      font-size: 0.5em;
+    }
+  }
+  @media (max-width: 400px) {
+    .txt1 span {
+      font-size: 1.3em;
+    }
+    .txt1 p {
+      font-size: 0.5em;
+    }
+  }
+  

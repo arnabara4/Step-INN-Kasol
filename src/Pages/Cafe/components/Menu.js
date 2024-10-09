@@ -89,7 +89,8 @@ const Menu = () => {
               dumplings, all prepared by talented chefs using the freshest
               ingredients. Each dish is crafted to deliver an authentic taste,
               ensuring a memorable dining experience that will keep you coming
-              back for more.
+              back for more. Every bite is a journey through the rich flavors of
+              China!
               <br />
               <br />
               <a href="https://www.google.com/maps/place/Step-In,+Kasol/@32.0090377,77.3072871,17z/data=!3m1!4b1!4m9!3m8!1s0x39045d68fbb80669:0x61e72d3410979567!5m2!4m1!1i2!8m2!3d32.0090377!4d77.309862!16s%2Fg%2F11vt1ywjky?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">

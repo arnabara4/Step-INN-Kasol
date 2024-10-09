@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/header.module.css";
-import Navbar from "./Navbar";
 import NamaGal from "./NamaGal";
-import Info from "./Info";
+import Navbar from "./Navbar";
+import BookBox from "./BookBox";
 
 const Header = () => {
+  const [view, setView] = useState("no");
+
   return (
     <div className={styles.headerWrapper}>
-      <Navbar />
+      <Navbar setView={setView} />
+      {view === "yes" ? <BookBox setView={setView} /> : ""}
       <NamaGal />
-      <Info/>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../styles/interior2.module.css";
-import intpic1 from "../assets/intpic1.jpeg";
-import intpic2 from "../assets/intpic2.jpeg";
-import intpic3 from "../assets/intpic3.jpeg";
+import styles from "../styles/Interior2b.module.css";
+import intpic1 from "../assets/tentint1.jpeg";
+import intpic2 from "../assets/tentint3.jpeg";
+import intpic3 from "../assets/tentint2.jpeg";
 
 const Interior2 = () => {
   return (

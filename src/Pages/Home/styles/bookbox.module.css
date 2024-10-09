@@ -1,0 +1,40 @@
+.container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 35%;
+  background-color: rgba(255, 255, 255, 0.511);
+  color: #ad8b3a;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+}
+.container span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3em;
+  cursor: pointer;
+  color: #ad8b3a;
+}
+.container span:hover {
+  color: #86610d;
+}
+.container a {
+  font-family: "Cinzel", serif;
+  font-size: 2em;
+  text-decoration: none;
+  color: #8d6b1e;
+}
+.container a:active{
+    color:#86610d;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.container a:hover {
+  text-decoration: underline;
+}

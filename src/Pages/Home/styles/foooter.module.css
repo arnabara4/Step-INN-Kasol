@@ -5,7 +5,9 @@
   background-color: #13130f;
   padding: 20px 30px;
 }
-
+input:focus {
+  outline: none;
+}
 .container img {
   width: 10vw;
   margin-bottom: 5vh;
@@ -18,7 +20,7 @@
   border-bottom: 1px solid white;
 }
 .column {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -36,7 +38,7 @@
 }
 .compform {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .compform input {
   border: none;
@@ -47,13 +49,14 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 .compform button {
   color: #45443fec;
   background-color: grey;
   border: none;
   padding: 10px;
-  height: 100%;
+  height: 5vh;
   font-weight: 700;
 }
 .column ul {
@@ -99,4 +102,55 @@
 }
 .wrapper img {
   width: 20%;
+}
+@media(max-width:500px){
+  .container{
+    padding: 0;
+  }
+  .container img{
+    width: 30%;
+    margin-bottom: 1vh;
+  }
+  .wrapper{
+    transform: scale(0.9);
+    gap: 10%;
+    padding: 0;
+    width: 100%;
+    margin-left: 5px;
+    padding-bottom: 20px;
+  }
+  .title{
+    font-size: 0.6em;
+    width: 70%;
+  }
+  .compform input{
+    transform: scale(0.8);
+  }
+  .compform {
+    align-items: center;
+  }
+  .column{
+    align-items: center;
+    width: 30%;
+  }
+  .compform button{
+    height: 50%;
+    margin-left: 10px;
+    transform: scale(0.8);
+  }
+  .column ul{
+    font-size: 0.6em;
+  }
+  .comp div{
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+  }
+  .links a{
+    font-size: 1em;
+  }
+  .wrapper img{
+    width: 20%;
+    height: 30%;
+  }
 }

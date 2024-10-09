@@ -9,10 +9,13 @@
 }
 .Nav2wrapper ul li{
     cursor:pointer;
-    padding: 18px 22px;
+    padding: 18px 20px;
     font-size: 1.1em;
     font-family:"Inter", sans-serif;
     font-weight: 200;
+    width: 30%;
+    justify-content: center;
+    display: flex;
 }
 .un{
     border-bottom: 2px solid rgba(128, 128, 128, 0.43);
@@ -20,4 +23,12 @@
 .selected{
     border-bottom: 2px solid #ad8b3a;
     color: #ad8b3a;
+}
+@media(max-width:500px){
+    .Nav2wrapper{
+        transform:scale(0.7);
+    }
+    .Nav2wrapper ul{
+        width: 100%;
+    }
 }

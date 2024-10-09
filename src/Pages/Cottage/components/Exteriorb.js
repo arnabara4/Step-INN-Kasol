@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles/exterior.module.css";
-import pic from "../assets/extpic.jpeg";
+import styles from "../styles/exteriorb.module.css";
+import pic from "../assets/tentext.jpeg";
 
 const Exterior = () => {
   return (

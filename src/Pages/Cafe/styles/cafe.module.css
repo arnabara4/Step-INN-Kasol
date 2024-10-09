@@ -10,3 +10,20 @@
   font-size: 3em;
   font-family: "Cinzel", serif;
 }
+@media(max-width:500px){
+  .txt2 span{
+    font-size: 2em;
+  }
+  .txt2Wrapper{
+    padding: 10px;
+  }
+}
+@media(max-width:400px){
+  .txt2 span{
+    font-size: 1.3em;
+  }
+  .txt2Wrapper{
+    padding: 10px;
+  }
+}
+

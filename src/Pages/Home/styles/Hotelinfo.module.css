@@ -33,7 +33,6 @@
     display: flex;
     gap: 5px;
     font-size: 1.1em;
-    
 }
 .container img{
     width: 15px;
@@ -51,5 +50,50 @@
     font-weight: 700;
     font-size: 0.85em;
 }
+@media(max-width:500px){
+    .container{
+        margin: 0;
+        margin-top: 50px;
+    }
+    .title{
+        font-size: 2em;
+    }
+    .column{
+        margin: 0px;
+    }
+    .comp{
+        margin: 10px;
+    }
+    .comp div{
+        font-size: 0.5em;
+        align-items: center;
+        gap:2px;
+    }
+    .comp div img{
+        transform: scale(0.7);
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+    }
+    .title2{
+        font-size: 0.5em;
+        align-items: center;
+    }
+  }
+  @media(max-width:400px){
+    .title{
+        font-size: 1.3em;
+    }
+    .comp div{
+        font-size: 0.2em;
+        align-items: center;
+        gap:2px;
+    }
+    .comp div img{
+        transform: scale(0.6);
+    }
+  }
+
 
 

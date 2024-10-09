@@ -98,7 +98,7 @@ const HotelInfo = () => {
                 src={Logo7}
                 alt="pic"
               />
-              <p>stepinnkasool@gmail.com</p>
+              <p>gargk1275@gmail.com</p>
             </div>
           </div>
           <div className={styles.comp}>

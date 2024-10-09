@@ -27,28 +27,24 @@ const Footer = () => {
           <div className={styles.comp}>
             <span className={styles.title}>FOR BOOKING CONTACT</span>
             <div>
-              <p>8960700009 / 9600036667</p>
-              <em>stepinnkasol@gmail.com</em>
+              <p>8448320407 / 9600036667</p>
             </div>
           </div>
           <div className={styles.comp}>
             <span className={styles.title}> CUSTOMER SUPPORT</span>
             <div>
-              <p>stepinn.support@gmail.com {"  "}</p>
-              <em>stepinnkasol@gmail.com</em>
+              <p>gargk1275@gmail.com {"  "}</p>
             </div>
           </div>
         </div>
         <div className={styles.column}>
           <span className={styles.title}>QUICK LINKS</span>
           <ul>
-            <li>Hotels</li>
             <li>Cottages</li>
             <li>Cafe</li>
             <li>Welness</li>
             <li>Gallery</li>
             <li>Sitemap</li>
-            <li>Offers</li>
             <li>About</li>
           </ul>
         </div>

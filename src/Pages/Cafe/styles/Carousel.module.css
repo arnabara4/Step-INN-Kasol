@@ -56,35 +56,44 @@
   padding: 3px;
   background-color: white;
 }
-@media (max-width: 500px) {
-  .contain {
-    margin-top: 10vh;
+@media(max-width:500px){
+  .contain{
+    margin-top: 20px;
   }
-  .TxtWrapper {
+  .container{
+    padding:0;
+  }
+  .TxtWrapper{
     width: 40%;
     font-size: 2em;
     padding: 0;
     line-height: 5vh;
   }
-  .Carousel {
-    column-gap: 20vw;
+  .Carousel{
+    column-gap:10vw;
   }
-  .card {
+  .card{
     padding: 10px;
     gap: 3vh;
     width: 30vw;
   }
+  .card img{
+    height: 30vh;
+  }
   .card p {
     font-size: 10px;
   }
-  .data img {
-    width: 20px;
+  .card span{
+    font-size: 0.8em;
+  }
+  .data img{
+    width:20px;
     height: 20px;
   }
   .prebtn {
     transform: scale(0.8);
   }
-  .postbtn {
+  .postbtn{
     transform: scale(0.8);
     right: 38%;
   }

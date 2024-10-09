@@ -2,25 +2,25 @@
   "reviews": [
     {
       "review": "BREADTHTAKING STREETS",
-      "img": "assets/pic5.png",
+      "img": "assets/ccpic1.jpeg",
       "name": "Kishshana Palmer",
       "profession": "Teacher"
     },
     {
       "review": "COMFORTING RESTAURANTS",
-      "img": "assets/Pic3.webp",
+      "img": "assets/ccpic2.jpeg",
       "name": "Sandy Rees",
       "profession": "Teacher"
     },
     {
       "review": "RELAXING NATURE",
-      "img": "assets/Foodpic1.jpg",
+      "img": "assets/ccpic3.jpeg",
       "name": "Tayyab Yunus",
       "profession": "CEO"
     },
     {
       "review": "BREADTHTAKING STREETS",
-      "img": "assets/pic5.png",
+      "img": "assets/ccpic4.jpeg",
       "name": "Kishshana Palmer",
       "profession": "Teacher"
     },
@@ -32,7 +32,7 @@
     },
     {
       "review": "RELAXING NATURE",
-      "img": "assets/Pic4.webp",
+      "img": "assets/foodpic1.jpg",
       "name": "Tayyab Yunus",
       "profession": "CEO"
     }

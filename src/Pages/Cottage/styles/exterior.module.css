@@ -4,6 +4,7 @@
   gap: 5vh;
   padding: 3vw;
   justify-content: center;
+  background-color: #f6f5f5;
 }
 em {
   font-style: normal;
@@ -45,4 +46,30 @@ em {
 .info img {
   width: 45%;
   height: 50vh;
+}
+@media(max-width:500px){
+  .text span {
+    font-size: 2em;
+    padding-left:3vw;
+    width: 50%;
+  }
+
+  .info p{
+    font-size: 0.9em;
+    width: 40%;
+  }
+  .info img {
+    height: 40vh;
+  }
+}
+@media(max-width:400px){
+  .text span {
+    font-size: 1.3em;
+  }
+  .info p{
+    font-size: 0.6em;
+  }
+  .info img {
+    height: 30vh;
+  }
 }

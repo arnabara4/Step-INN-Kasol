@@ -58,3 +58,31 @@ a {
   color: #45443f;
   padding-bottom: 2vh;
 }
+@media(max-width:500px){
+  .title{
+    font-size: 2em;
+  }
+  .info span{
+    font-size: 1.1em;
+  }
+  .info p{
+    font-size: 0.8em;
+  }
+  a{
+    font-size: 0.5em;
+  }
+  .map{
+    width:40%;
+    height: 30vh;
+  }
+  .wrapper{
+    gap: 0.5vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media(max-width:400px){
+  .title{
+    font-size: 1.3em;
+  }
+}

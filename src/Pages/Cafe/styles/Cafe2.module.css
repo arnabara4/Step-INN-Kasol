@@ -40,3 +40,37 @@
   height: 60vh;
   border-radius: 50%;
 }
+@media(max-width:500px){
+  .container span{
+    font-size: 2em;
+  }
+  .comp{
+    padding-top: 20px;
+  }
+  .comp h1{
+    font-size: 1.3em;
+  }
+  .comp p {
+    font-size: 0.8em;
+  }
+  .comp img {
+    height: 30vh;
+  }
+}
+@media(max-width:400px){
+  .container span{
+    font-size: 1.3em;
+  }
+  .comp{
+    padding-top: 15px;
+  }
+  .comp h1{
+    font-size: 1em;
+  }
+  .comp p {
+    font-size: 0.5em;
+  }
+  .comp img {
+    height: 20vh;
+  }
+}
