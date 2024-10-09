@@ -27,8 +27,30 @@
 @media(max-width:500px){
     .Nav2wrapper{
         transform:scale(0.7);
+        width: 100vw;
     }
     .Nav2wrapper ul{
         width: 100%;
+        margin-right: 125px;
+    }
+    .Nav2wrapper ul li{
+        width: 10%;
+        font-size: 0.8em;
+        padding: 18px 25px;
+    }
+}
+@media(max-width:400px){
+    .Nav2wrapper{
+        transform:scale(0.7);
+        width: 100vw;
+    }
+    .Nav2wrapper ul{
+        width: 100%;
+        margin-right: 80px;
+    }
+    .Nav2wrapper ul li{
+        width: 10%;
+        font-size: 0.6em;
+        padding: 18px 20px;
     }
 }

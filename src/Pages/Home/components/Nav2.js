@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../styles/content.module.css";
 
 const Nav2 = ({ setSec, sec }) => {
-  console.log(setSec);
   return (
     <div className={styles.Nav2wrapper}>
       <ul>
