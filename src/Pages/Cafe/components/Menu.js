@@ -26,9 +26,7 @@ const Menu = () => {
               our cafe.
               <br />
               <br />
-              <a href="https://www.google.com/maps/place/Step-In,+Kasol/@32.0090377,77.3072871,17z/data=!3m1!4b1!4m9!3m8!1s0x39045d68fbb80669:0x61e72d3410979567!5m2!4m1!1i2!8m2!3d32.0090377!4d77.309862!16s%2Fg%2F11vt1ywjky?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">
-                MORE INFO
-              </a>
+              <a href="https://www.stepinnkasol.com/indian">MORE INFO</a>
             </p>
           </div>
         </div>
@@ -48,9 +46,7 @@ const Menu = () => {
               meal in the heart of Kasol.
               <br />
               <br />
-              <a href="https://www.google.com/maps/place/Step-In,+Kasol/@32.0090377,77.3072871,17z/data=!3m1!4b1!4m9!3m8!1s0x39045d68fbb80669:0x61e72d3410979567!5m2!4m1!1i2!8m2!3d32.0090377!4d77.309862!16s%2Fg%2F11vt1ywjky?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">
-                MORE INFO
-              </a>
+              <a href="https://www.stepinnkasol.com/italian">MORE INFO</a>
             </p>
           </div>
         </div>
@@ -70,9 +66,7 @@ const Menu = () => {
               and wholesome flavors of Israel right here in the heart of Kasol.
               <br />
               <br />
-              <a href="https://www.google.com/maps/place/Step-In,+Kasol/@32.0090377,77.3072871,17z/data=!3m1!4b1!4m9!3m8!1s0x39045d68fbb80669:0x61e72d3410979567!5m2!4m1!1i2!8m2!3d32.0090377!4d77.309862!16s%2Fg%2F11vt1ywjky?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">
-                MORE INFO
-              </a>
+              <a href="https://www.stepinnkasol.com/isreli">MORE INFO</a>
             </p>
           </div>
         </div>
@@ -93,9 +87,7 @@ const Menu = () => {
               China!
               <br />
               <br />
-              <a href="https://www.google.com/maps/place/Step-In,+Kasol/@32.0090377,77.3072871,17z/data=!3m1!4b1!4m9!3m8!1s0x39045d68fbb80669:0x61e72d3410979567!5m2!4m1!1i2!8m2!3d32.0090377!4d77.309862!16s%2Fg%2F11vt1ywjky?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">
-                MORE INFO
-              </a>
+              <a href="https://www.stepinnkasol.com/chinese">MORE INFO</a>
             </p>
           </div>
         </div>
