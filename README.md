@@ -31,3 +31,28 @@ Clone the repository:
 ```bash
 git clone https://github.com/arnabara4/Step-INN-Kasol
 cd stepinkasol
+
+Install dependencies:
+
+npm install
+
+
+Start development server:
+
+npm start
+
+📂 Project Structure
+stepinkasol/
+├── public/            # Static assets  
+├── src/  
+│   ├── components/    # Reusable UI components  
+│   ├── pages/         # Page-level components  
+│   ├── assets/        # Images, videos, and other resources  
+│   ├── styles/        # CSS modules  
+│   └── App.js         # Root component  
+└── package.json
+
+🌍 Deployment
+
+The project is hosted on Netlify and accessible at:
+👉 https://stepinnkasol.netlify.app/
